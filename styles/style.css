@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: inter, sans-serif;
 }
+
+/*--------------------------
+    Navbar Section Style
+----------------------------*/
 
 .navbar{
     display: flex;
@@ -81,4 +86,52 @@
 
 .icon .fa-heart:hover{
     color: #f64237;
+}
+
+/*--------------------------
+    Banner Section Style
+----------------------------*/
+
+.banner-element{
+    margin: 120px 20px 0;
+    display: flex;
+    flex: 1, 0 , 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-text h3{
+    color: #1a2b4e;
+    margin: 20px 0;
+}
+
+.banner-text h2{
+    color: #27ac60;
+    font-size: 46px;
+    margin: 20px 0 20px ;
+}
+
+.text{
+    color: #989898;
+    margin: 20px 0 20px ;
+}
+
+button{
+    background-color: #27ac60;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #27ac61c4;
+}
+
+button:hover{
+    background-color: #27ac61c4;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 17px;
+    font-size: 24px;
+    cursor: pointer;
 }
