@@ -50,7 +50,7 @@
     text-align: center;
     font-size: 22px;
     padding: 5px;
-    color: rgba(0, 0, 0, 0.616);
+    color: #27ac60;
     transition: 0.3s;
 }
 .menu ul li:hover a{
@@ -204,4 +204,11 @@ div.desc p{
 
 .gallery span{
     color: #04aa6d;
+    font-size: 22px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
