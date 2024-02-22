@@ -164,6 +164,7 @@ div.gallery{
     border-radius: 10px;
     background-color: #f1f1f1;
     transition: 0.3s;
+    position: relative;
 }
 
 div.gallery:hover{
@@ -183,6 +184,22 @@ div.gallery img:hover{
     opacity: 1;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.heart-logo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fbfef3a9;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.heart-logo .fa-heart{
+    color:#f64237;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 50%;
 }
 
 div.desc{
