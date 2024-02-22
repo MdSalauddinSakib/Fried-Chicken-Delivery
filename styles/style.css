@@ -255,7 +255,6 @@ div.desc p {
     border-radius: 10px;
     background-color: #f1f1f1;
     padding: 20px;
-    margin-bottom: 120px;
     transition: 0.3s;
 }
 
@@ -290,6 +289,10 @@ div.desc p {
     Order Form Section Style
 -----------------------------*/
 
+.order-form{
+    margin-bottom: 120px;
+}
+
 .form-container {
     width: 100%;
     padding: 0 15px;
@@ -313,7 +316,6 @@ form {
 }
 
 .title {
-    /* background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #5195A8), color-stop(100, #70EAFF)); */
     background: -moz-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
     background: -ms-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
     background: -o-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
@@ -407,4 +409,58 @@ button {
 button:hover {
     cursor: pointer;
     background: #428a7d;
+}
+
+/*------------------------------
+    Big Footer Section Style
+-----------------------------*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.822);
+    box-shadow: 15px rgba(0, 0, 0, 0.8);
+}
+
+.links li{
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #757586;
+}
+
+.food-taste p, div{
+    padding-top: 10px;
+}
+
+.food-taste-icon .fa-brands{
+    padding: 10px;
+}
+
+.menu-links ul{
+    padding-top: 10px;
+}
+
+.menu-links ul li{
+    line-height: 140%;
+}
+
+.contact .p{
+    margin-top: 10px;
+}
+
+.contact p{
+    padding: 5px;
+}
+
+.cp-text{ 
+    color: rgba(0,0,0,.7); 
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 10px;
+    background-color: #04aa6d;
 }
