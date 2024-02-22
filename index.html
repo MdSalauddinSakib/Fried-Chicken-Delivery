@@ -45,9 +45,9 @@
             <div class="banner-text">
                 <h3>Our Special Dish</h3>
                 <h2>Fried Chicken</h2>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus nesciunt
-                    fugiat incidunt dolor omnis beatae soluta sapiente. Modi similique facilis nemo et. Eveniet, saepe
-                    vel ipsam ratione laboriosam nobis.</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Debitis, temporibus nesciunt
+                    fugiat incidunt dolor omnis beatae <br> soluta sapiente. Modi similique facilis nemo et. Eveniet, saepe
+                    vel <br> ipsam ratione laboriosam nobis.</p>
                 <button>Order Now</button>
             </div>
             <div class="banner-img">
@@ -312,6 +312,86 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptates libero velit iure dolor. Possimus nulla rem repellendus maxime minus?
                     </p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------------------
+        Order Form Section
+    ------------------------------>
+    <section class="order-form">
+        <div class="form-container">
+            <div class="title">
+                <h2>Product Order Form</h2>
+            </div>
+            <div class="d-flex">
+                <form action="" method="">
+                    <label>
+                        <span class="fname">First Name <span class="required">*</span></span>
+                        <input type="text" name="fname">
+                    </label>
+                    <label>
+                        <span class="lname">Last Name <span class="required">*</span></span>
+                        <input type="text" name="lname">
+                    </label>
+                    <label>
+                        <span>Street Address <span class="required">*</span></span>
+                        <input type="text" name="houseadd" placeholder="House number and street name" required>
+                    </label>
+                    <label>
+                        <span>&nbsp;</span>
+                        <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
+                    </label>
+                    <label>
+                        <span>Town / City <span class="required">*</span></span>
+                        <input type="text" name="city">
+                    </label>
+                    <label>
+                        <span>State / County <span class="required">*</span></span>
+                        <input type="text" name="city">
+                    </label>
+                    <label>
+                        <span>Postcode / ZIP <span class="required">*</span></span>
+                        <input type="text" name="city">
+                    </label>
+                    <label>
+                        <span>Phone <span class="required">*</span></span>
+                        <input type="tel" name="city">
+                    </label>
+                    <label>
+                        <span>Email Address <span class="required">*</span></span>
+                        <input type="email" name="city">
+                    </label>
+                </form>
+                <div class="Yorder">
+                    <table>
+                        <tr>
+                            <th colspan="2">Your order</th>
+                        </tr>
+                        <tr>
+                            <td>Product Name x 2(Qty)</td>
+                            <td>$88.00</td>
+                        </tr>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td>$88.00</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td>Free shipping</td>
+                        </tr>
+                    </table><br>
+                    <div>
+                        <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+                    </div>
+                    <p class="text">
+                        Make your payment directly into our bank account. Please use your Order ID as the payment
+                        reference. Your order will not be shipped until the funds have cleared in our account.
+                    </p>
+                    <div>
+                        <input type="radio" name="dbt" value="cd"> Cash on Delivery
+                    </div>
+                    <button type="button">Place Order</button>
+                </div><!-- Yorder -->
             </div>
         </div>
     </section>
