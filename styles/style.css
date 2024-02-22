@@ -163,12 +163,12 @@ div.gallery{
     width: 280px;
     border-radius: 10px;
     background-color: #f1f1f1;
+    transition: 0.3s;
 }
 
 div.gallery:hover{
     border: 1px solid #777;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
 }
 
 div.gallery img{
@@ -212,4 +212,50 @@ div.desc p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/*--------------------------
+    Customer Section Style
+----------------------------*/
+
+.customer-review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.customer-review-card{
+    border: 1px solid #cbcbcb;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 120px;
+    transition: 0.3s;
+}
+
+.customer-review-card:hover{
+    border: 1px solid #cbcbcb;
+    width: 280px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.customer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-img img{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.quotation .fa-quote-right{
+    font-size: 40px;
+    color: #cbcbcb;
 }
