@@ -322,14 +322,43 @@ div.desc p {
 .services img{
     width: 100px;
     height: 100px;
-    background-color: #fff;
+}
+
+/*------------------------------
+    About Section Style
+-----------------------------*/
+
+.about-section{
+    margin: 120px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-img img{
+    width: 600px;
+    height: auto;
+}
+
+.about-us h5{
+    color: #ffb413;
+    font-size: 22px;
+}
+
+.about-us h3{
+    font-size: 42px;
+    font-weight: 800;
 }
 
 /*------------------------------
     Contact Section Style
 -----------------------------*/
 
-.contact{
+.contact-us{
     margin: 120px 20px;
 }
 
