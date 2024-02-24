@@ -240,13 +240,26 @@ div.desc p {
 }
 
 /*--------------------------
-    Customer Section Style
+    Customer Review Section Style
 ----------------------------*/
 
 .customer-review {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 10px;
     justify-content: space-around;
+    animation: marquee 50s linear infinite;
+    animation-play-state: running;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
 }
 
 .customer-review-card {
@@ -289,7 +302,7 @@ div.desc p {
     Order Form Section Style
 -----------------------------*/
 
-.order-form{
+.order-form {
     margin-bottom: 120px;
 }
 
@@ -394,7 +407,7 @@ td {
     padding: 15px 0;
 }
 
-button {
+/* button {
     width: 100%;
     margin-top: 10px;
     padding: 10px;
@@ -404,18 +417,18 @@ button {
     color: #fff;
     font-size: 15px;
     font-weight: bold;
-}
+} */
 
-button:hover {
+/* button:hover {
     cursor: pointer;
     background: #428a7d;
-}
+} */
 
 /*------------------------------
     Big Footer Section Style
 -----------------------------*/
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -424,41 +437,42 @@ button:hover {
     box-shadow: 15px rgba(0, 0, 0, 0.8);
 }
 
-.links li{
+.links li {
     list-style: none;
 }
 
-.links li a{
+.links li a {
     text-decoration: none;
     color: #757586;
 }
 
-.food-taste p, div{
+.food-taste p,
+div {
     padding-top: 10px;
 }
 
-.food-taste-icon .fa-brands{
+.food-taste-icon .fa-brands {
     padding: 10px;
 }
 
-.menu-links ul{
+.menu-links ul {
     padding-top: 10px;
 }
 
-.menu-links ul li{
+.menu-links ul li {
     line-height: 140%;
 }
 
-.contact .p{
+.contact .p {
     margin-top: 10px;
 }
 
-.contact p{
+.contact p {
     padding: 5px;
 }
 
-.cp-text{ 
-    color: rgba(0,0,0,.7); 
+.cp-text {
+    color: rgba(0, 0, 0, .7);
     text-shadow: 0 1px rgba(255, 255, 255, 0.1);
     text-align: center;
     padding: 10px;
