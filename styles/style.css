@@ -326,6 +326,29 @@ div.desc p {
 }
 
 /*------------------------------
+    Contact Section Style
+-----------------------------*/
+
+.contact{
+    margin: 120px 20px;
+}
+
+.let-talk{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(173, 216, 230, 0.856), rgba(0, 0, 139, 0.712));
+    padding: 40px 0;
+}
+
+.connect h5{
+    color: #ffb413;
+}
+
+.connect h1{
+    font-weight: 800;
+}
+
+/*------------------------------
     Order Form Section Style
 -----------------------------*/
 
