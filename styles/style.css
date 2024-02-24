@@ -299,6 +299,33 @@ div.desc p {
 }
 
 /*------------------------------
+    Services Section Style
+-----------------------------*/
+
+.food-service{
+    margin: 20px;
+    background-color: #04aa6d27;
+}
+
+.service-care{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services{
+    text-align: center;
+}
+
+.services img{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+/*------------------------------
     Order Form Section Style
 -----------------------------*/
 
@@ -406,23 +433,6 @@ td {
 .Yorder>div {
     padding: 15px 0;
 }
-
-/* button {
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
-    background: #27ac60;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-} */
-
-/* button:hover {
-    cursor: pointer;
-    background: #428a7d;
-} */
 
 /*------------------------------
     Big Footer Section Style
